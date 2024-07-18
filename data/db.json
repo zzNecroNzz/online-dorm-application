@@ -1,0 +1,34 @@
+{
+  "dorms": [
+    {
+      "id": "1",
+      "name": "Mabolo Men's Home",
+      "rental": "400",
+      "capacity": 60,
+      "rooms": 10,
+      "availableBeds": 10,
+      "occupants": "Male",
+      "location": "Upper Campus"
+    },
+    {
+      "id": "e198",
+      "name": "Camia Cottage",
+      "rental": "200",
+      "capacity": "18",
+      "rooms": "3",
+      "availableBeds": "18",
+      "occupants": "Female",
+      "location": "Lower Campus"
+    },
+    {
+      "id": "bce7",
+      "name": "Daisy Cottage",
+      "rental": "200",
+      "capacity": "14",
+      "rooms": "3",
+      "availableBeds": "12",
+      "occupants": "Female",
+      "location": "Upper Campus"
+    }
+  ]
+}

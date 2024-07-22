@@ -72,7 +72,7 @@ const ManageDorms = () => {
           </button>
         </div>
         <div className="w-full overflow-x-auto">
-          <ul className="flex justify-between py-4 text-center w-full">
+          <ul className="flex justify-between py-4 text-center w-full font-bold">
             <li className="md:w-[20%]">Dormitory</li>
             <li className="md:w-[20%]">Monthly Rental</li>
             <li className="md:w-[20%]">Bed Capacity</li>
@@ -84,7 +84,9 @@ const ManageDorms = () => {
           </ul>
 
           {dorms.length === 0 ? (
-            <div>No Data Available</div>
+            <div className="w-full text-center py-4 text-xl text-primary">
+              No Data Available
+            </div>
           ) : (
             dorms.map((dorm) => (
               <ul

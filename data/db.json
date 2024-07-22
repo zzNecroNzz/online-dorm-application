@@ -1,34 +1,46 @@
 {
   "dorms": [
     {
-      "id": "1",
-      "name": "Mabolo Men's Home",
-      "rental": "400",
-      "capacity": 60,
-      "rooms": 10,
-      "availableBeds": 10,
+      "id": "4918",
+      "name": "Daisy Cottage",
+      "rental": "230",
+      "capacity": "23",
+      "rooms": "11",
+      "availableBeds": "23",
+      "occupants": "Female",
+      "location": "Upper Campus"
+    },
+    {
+      "id": "7835",
+      "name": "Mulberry Men’s Home",
+      "rental": "250",
+      "capacity": "19",
+      "rooms": "4",
+      "availableBeds": "43",
       "occupants": "Male",
       "location": "Upper Campus"
-    },
-    {
-      "id": "e198",
-      "name": "Camia Cottage",
-      "rental": "200",
-      "capacity": "18",
-      "rooms": "3",
-      "availableBeds": "18",
-      "occupants": "Female",
-      "location": "Lower Campus"
-    },
-    {
-      "id": "bce7",
-      "name": "Daisy Cottage",
-      "rental": "200",
-      "capacity": "14",
-      "rooms": "3",
-      "availableBeds": "12",
-      "occupants": "Female",
-      "location": "Upper Campus"
     }
-  ]
+  ],
+  "applications": [
+    {
+      "id": 1,
+      "student_name": "Franco Mikhail",
+      "dorm_name": "Mahogany Men's Hall",
+      "availableBeds": 4
+    },
+    {
+      "id": 2,
+      "student_name": "Franco Lubaton",
+      "dorm_name": "Mulberry Men's Hall",
+      "availableBeds": 4
+    },
+    {
+      "id": 3,
+      "student_name": "Mikhail Lubaton",
+      "dorm_name": "Molave Men's Hall",
+      "availableBeds": 4
+    }
+  ],
+  "accepted": [],
+  "rejected": []
 }
